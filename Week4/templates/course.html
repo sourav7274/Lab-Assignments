@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+      <h1>Course Details</h1>
+
+      <table border = "2" id = "course-details-table">
+        <tr>
+          <th>Average Marks</th>
+          <th>Maximum Marks</th>
+        </tr>
+        <tr>
+        <td>{{avg}}</td>
+        <td>{{maxS}}</td>
+        </tr>
+      </table>
+      <img src="static/plot.png" alt="histogramData">
+      </br>
+      <a href="{{url_for('index')}}">Go Back</a>
+</body>
+</html>
